@@ -1,0 +1,420 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    background-image: url(noise.gif);
+	font-family: 'Noto Serif Display', serif;
+}
+.header{
+	display: flex;
+	background-color: rgba(43, 43, 43, 0.089);
+	position: fixed;
+	top: 0; 
+	width: 100%; 
+	z-index: 77;
+}
+
+.name{
+	font-size: 25px;
+	margin: 0px 50px 0px 100px; 
+	padding: 14px 16px 14px 0px;
+	color: rgb(255, 74, 98);
+}
+
+  .nav a{
+	float: left;
+	display: block;
+	color: #111111;
+	text-align: center;
+	padding: 22px 16px;
+	text-decoration: none;
+	font-size: 13px;
+  }
+  .nav a:hover {
+	background: rgba(32, 32, 32, 0.562);
+	color: white;
+  }
+
+#home{ 
+	font-weight: 400;
+	display:flex;
+}
+#pro{
+	display: flex;
+}
+#art{
+	display: flex;
+}
+#news{
+	display: flex;
+}
+#contact{
+	display: flex;
+}
+
+.intro{
+	width: 500px;
+	margin: 250px 150px auto 100px;
+	color: rgb(31, 31, 31);
+}
+
+.crane img{
+	padding-left: 250px;
+	height: 300px;
+}
+.choices{
+	display: flex;
+	margin-bottom: 50px;
+}
+.bb1{
+	display: flex;
+	position: absolute;
+	top: 220px;
+	left: 670px;
+}
+.bb2{
+	display: flex;
+	position: absolute;
+	top: 320px;
+	left: 1050px;
+}
+.bb3{
+	display: flex;
+	position: absolute;
+	top: 450px;
+	left: 1300px;
+}
+.choices img{
+	height: 250px;
+	cursor: grab;
+}
+.flexible img{
+	height: 100px;
+	opacity: 0.8;
+}
+.bb3 img{
+	height: 70px;
+}
+.working{
+	padding-left: -50px;
+}
+.artsy{
+	padding-top: 90px;
+	padding-left: 50px;
+}
+.nonsense{
+	padding-top: 25px;
+	padding-left: 50px;
+}
+.center{
+	text-align: center;
+	font-size: 11px;
+}
+.proleft{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	color: rgb(31, 31, 31);
+	width: 400px;
+}
+.proleft h1{
+	margin-bottom: 10px;
+}
+.proleft img{
+	padding: 50px;
+	height: 400px;
+}
+
+.proright{
+	margin-top: 300px;
+	padding-left: 50px;
+	width: 700px;
+}
+.proright p{
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+.gridline a{
+	float: left;
+	display: block;
+	color: rgb(255, 74, 98);
+	text-align: center;
+	text-decoration: none;
+  }
+
+.gridline{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-gap: 10px;
+	text-align: center;
+	background-color: rgb(31, 31, 31);
+	border-color: whitesmoke;
+}
+
+.artright{
+	margin-top: 270px;
+	padding-left: 10px;
+	width: 700px;
+}
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(5,150px);
+	grid-template-rows: 150px 150px;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.soA{
+	background-color: rgba(43, 43, 43, 0.8);
+	border: solid 1px rgb(31, 31, 31);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.soB{
+	background-color: rgba(238, 238, 238, 0.8);
+	border: solid 1px rgb(31, 31, 31);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.so1:hover{
+	background-image: url("digipaint.PNG");
+	background-position:center;
+	background-size: cover;
+}
+
+.so2{
+	grid-row: 1/3;
+	grid-column-start: 2;
+}
+.so2:hover{
+	background-image: url("photoretouch.png");
+	background-position:center;
+	background-size: cover;
+}
+
+.so3:hover{
+	background-image: url("brand.png");
+	background-position:center;
+	background-size: cover;
+}
+.so4{
+	grid-column: 4/6;
+}
+
+.so4:hover{
+		background-image: url("Pagedesign.png");
+		background-position:center;
+		background-size: cover;
+}
+.so5:hover{
+	background-image: url("tradart.png");
+	background-position:center;
+	background-size: cover;
+}
+.so6{
+	grid-column: 3/5;
+	grid-row-start: 2;
+}
+.so6:hover{
+	background-image: url("webpage.png");
+	background-position:center;
+	background-size: cover;
+}
+.so7:hover{
+	background-image: url("demogif.GIF");
+	background-position:center;
+	background-size: cover;
+}
+
+.h1a{
+	font-weight: 900;
+	font-size: 15px;
+	color: rgba(245, 245, 245, 0.74);
+}
+
+.soA:hover .h1a{
+	visibility: hidden;
+}
+
+.h1b{
+	font-weight: 900;
+	font-size: 15px;
+	color: rgba(15, 15, 15, 0.9);
+}
+
+.soB:hover .h1b{
+	visibility: hidden;
+}
+
+.contactright{
+	margin-top: 270px;
+	padding-left: 50px;
+	display: flex;
+}
+
+.contactright p{
+	font-size: 13px;
+	color:rgba(43, 43, 43);
+	word-spacing: 5px;
+}
+
+.contactright a{
+	float: left;
+	display: block;
+	color: rgba(43, 43, 43);
+	text-align: center;
+	padding: 10px 15px 0px 0px;
+	text-decoration: none;
+	font-size: 23px;
+  }
+
+.carousel{
+	position: absolute;
+	margin-top: 200px;
+	display: grid;
+	grid-template-columns: repeat(7,100px);
+	grid-template-rows: 100px;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.soC{
+	border: solid 1px rgb(31, 31, 31);
+	display: flex;
+}
+
+.pic1{
+	background-image: url("P1.JPG");
+	background-position:center;
+	background-size: cover;
+}
+  
+.pic2{
+	background-image: url("P2.png");
+	background-position:center;
+	background-size: cover;
+}
+.pic3{
+	background-image: url("P3.png");
+	background-position:center;
+	background-size: cover;
+}
+.pic4{
+	background-image: url("P4.png");
+	background-position:center;
+	background-size: cover;
+}
+.pic5{
+	background-image: url("P6.png");
+	background-position:center;
+	background-size: cover;
+}
+.pic6{
+	background-image: url("P5.png");
+	background-position:center;
+	background-size: cover;
+}
+.pic7{
+	background-image: url("P7.png");
+	background-position:center;
+	background-size: cover;
+}
+
+
+.newsclass{
+	margin: 110px 300px 150px 300px;
+}
+.newsclass a{
+	color: rgba(0, 0, 0, 0.7);
+	font-style: italic;
+	font-size: 13px;
+	margin-left: 700px;
+}
+.newsclass h1{
+
+	display: flex;
+	justify-content: center;
+}
+.newspiece{
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.ending{
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+.twit{
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	letter-spacing: 5px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(43, 43, 43, 0.4);
+	background-color:  rgba(238, 238, 238, 0.2);
+	transition: 0.3s;
+  }
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+	background-color:  rgba(238, 238, 238, 0.8);
+  }
+
+.container {
+	padding: 20px;
+  }
+
+.myBtn{
+	position: fixed;
+	bottom: 35px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: rgba(238, 238, 238, 0.8);
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: 30px;
+}
+  
+.myBtn:hover {
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
+.disclaimer{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 35px;
+	font-size: 13px;
+	color: rgba(0, 0, 0);
+	font-weight: 100;
+}
+.PicClick{
+	display: flex;
+	cursor: crosshair;
+}
+.Abbe3b{
+	position: absolute;
+	z-index: -1;
+}
+.PicClick:hover .Abbe3a{
+	visibility: hidden;
+}
+.PicClick:hover .Abbe3b{
+	visibility: visible;
+}
